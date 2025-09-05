@@ -59,3 +59,7 @@ print(tupleData[0])
 print(tupleData[3])
 # tupleData[2] = 50     This will give compilation error - Touple dont support item assignments
 
+print(5+5.2)
+print(2+3)
+print("Name " + " What in it")
+
