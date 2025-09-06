@@ -1,7 +1,5 @@
-from os import remove
-
 s = {1, 2, 3, 4, 5, 5}
-print(s)
+print(s)        #duplicates are not allowed in python sets
 s.add(12)
 print(s)
 s.add("Varun")
@@ -9,7 +7,7 @@ print(s)
 
 print("_______Print set items___________")
 # access set items
-for item in s:
+for item in s:          #We can not access set items with index as it is inordered
     print(item)
 
 # Set methods
